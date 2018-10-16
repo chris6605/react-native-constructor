@@ -108,7 +108,7 @@ const StackNav = StackNavigator({
     });
 
 
-
+// drawer 的用法還有待確定 如果在這裡 每個頁面都有了側邊欄
 const DrawerNav = DrawerNavigator({
     Home: {
         screen: StackNav
